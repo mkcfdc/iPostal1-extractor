@@ -1,0 +1,29 @@
+{
+  "name": "ipostal1-extractor",
+  "version": "1.0.0",
+  "description": "A Node.js module for extracting iPostal1 information",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mkcfdc/ipostal1-extractor.git"
+  },
+  "keywords": [
+    "ipostal1",
+    "postal",
+    "virtual",
+    "virtual mailbox",
+    "extractor"
+  ],
+  "author": "Ian Rocks",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axios-cookiejar-support": "^1.0.1",
+    "tough-cookie": "^4.0.0",
+    "querystring": "^0.2.0",
+    "cheerio": "^1.0.0-rc.5"
+  }
+}
