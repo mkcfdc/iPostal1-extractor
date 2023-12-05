@@ -1,12 +1,3 @@
-// Usage
-// const extractor = new PostalInfoExtractor('username', 'password');
-// extractor.loginAndFetch().then(() => {
-//     console.log(`Number of Unread mail: ${extractor.getUnreadMailCount()}`);
-//     console.log(`Account Name: ${extractor.getAccountName()}`);
-//     console.log(`Address: ${extractor.getAddress()}`);
-// });
-
-
 const axios = require('axios').default;
 const { wrapper } = require('axios-cookiejar-support');
 const { CookieJar } = require('tough-cookie');
